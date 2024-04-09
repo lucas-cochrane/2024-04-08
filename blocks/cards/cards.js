@@ -16,3 +16,4 @@ export default function decorate(block) {
   block.textContent = '';
   block.append(ul);
 }
+console.log ('Cards block added to page');
